@@ -11,7 +11,7 @@ import image15 from '../../Images/Untitled-15.png';
 import React from "react";
 import './Cards.css';
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <div className="container">
       <div className="row ">
@@ -61,7 +61,7 @@ const Cards = () => {
         </div>
         <div className="col-md-10 main">
           <div className="col-md-3 ">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img
                 src={image7}
@@ -84,7 +84,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image5} alt="A man in T-shirt" />
               <div className="caption content">
@@ -103,7 +103,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image6} alt="A man in T-shirt" />
               <div className="caption content">
@@ -122,7 +122,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image2} alt="A man in T-shirt" />
               <div className="caption content">
@@ -146,7 +146,7 @@ const Cards = () => {
         <div className="col-md-2"></div>
         <div className="col-md-10 main">
           <div className="col-md-3 ">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img
                 src={image3}
@@ -169,7 +169,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image4} alt="A man in T-shirt" />
               <div className="caption content">
@@ -188,7 +188,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image7} alt="A man in T-shirt" />
               <div className="caption content">
@@ -207,7 +207,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image8} alt="A man in T-shirt" />
               <div className="caption content">
@@ -231,7 +231,7 @@ const Cards = () => {
         <div className="col-md-2"></div>
         <div className="col-md-10 main">
           <div className="col-md-3 ">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img
                 src={image9}
@@ -289,7 +289,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image9} alt="A man in T-shirt" />
               <div className="caption content">
@@ -312,7 +312,7 @@ const Cards = () => {
         <div className="col-md-2"></div>
         <div className="col-md-10 main">
           <div className="col-md-3 ">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img
                 src={image4}
@@ -375,7 +375,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image7} alt="A man in T-shirt" />
               <div className="caption content">

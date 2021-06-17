@@ -356,7 +356,7 @@ const Cards = (props) => {
             </div>
           </div>
           <div className="col-md-3">
-            <p className="free">Free shipping</p>
+            <p className="free">{props.free}</p>
             <div className="thumbnail card">
               <img src={image12} alt="A man in T-shirt" />
               <div className="caption content">

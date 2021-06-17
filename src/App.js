@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Cards/>
+      <Cards free={"free shipping"}/>
     </>
   );
 }

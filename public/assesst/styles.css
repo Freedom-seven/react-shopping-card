@@ -4,6 +4,7 @@
 
 .card {
 	border:none;
+	height: 40rem;
 }
 
 .sizes {
@@ -15,6 +16,10 @@
 	border-radius: 50%;
 	width: 30px;
 	padding: 5px;
+}
+
+.main {
+	height: 40rem;
 }
 
 

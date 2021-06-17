@@ -234,9 +234,8 @@ const Cards = () => {
             <p className="free">Free shipping</p>
             <div className="thumbnail card">
               <img
-                src={image5}
-                alt="A man in T-shirt"
-                className="imagesHeight"
+                src={image9}
+                alt="A man in T-shirt" style={{height:"105px"}}
               />
               <div className="caption content">
                 <p>Blue-black T-shirt</p>
@@ -338,9 +337,8 @@ const Cards = () => {
           <div className="col-md-3">
             <div className="thumbnail card">
               <img
-                src={image6}
-                alt="A man in T-shirt"
-                className="imageHeights"
+                src={image7}
+                alt="A man in T-shirt" style={{height:"160px"}}
               />
               <div className="caption content">
                 <p>Ash T-shirt</p>

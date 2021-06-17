@@ -1,4 +1,3 @@
-import image1 from '../../Images/1.png';
 import image2 from '../../Images/un 4.png';
 import image3 from '../../Images/un 6.png';
 import image4 from '../../Images/un 8.png';
@@ -7,10 +6,7 @@ import image6 from '../../Images/un 11.png';
 import image7 from '../../Images/Untitled-1.png';
 import image8 from '../../Images/Untitled-2.png';
 import image9 from '../../Images/Untitled-3.png';
-import image10 from '../../Images/Untitled-5.png';
-import image11 from '../../Images/Untitled-7.png';
 import image12 from '../../Images/Untitled-9.png';
-import image14 from '../../Images/Untitled-14.png';
 import image15 from '../../Images/Untitled-15.png';
 import React from "react";
 import './Cards.css';
@@ -68,7 +64,7 @@ const Cards = () => {
             <p className="free">Free shipping</p>
             <div className="thumbnail card">
               <img
-                src={image1}
+                src={image7}
                 alt="A man in T-shirt"
                 className="imageHeight"
               />
@@ -238,7 +234,7 @@ const Cards = () => {
             <p className="free">Free shipping</p>
             <div className="thumbnail card">
               <img
-                src={image14}
+                src={image5}
                 alt="A man in T-shirt"
                 className="imagesHeight"
               />
@@ -320,7 +316,7 @@ const Cards = () => {
             <p className="free">Free shipping</p>
             <div className="thumbnail card">
               <img
-                src={image10}
+                src={image4}
                 alt="A man in T-shirt"
                 className="imageHeights"
               />
@@ -342,7 +338,7 @@ const Cards = () => {
           <div className="col-md-3">
             <div className="thumbnail card">
               <img
-                src={image11}
+                src={image6}
                 alt="A man in T-shirt"
                 className="imageHeights"
               />

@@ -1,0 +1,60 @@
+.found {
+	margin-left: 150px;
+}
+
+.card {
+	border:none;
+}
+
+.sizes {
+	font-weight: bold;
+}
+
+.size {
+	background-color: #a6a6a6;
+	border-radius: 50%;
+	width: 30px;
+	padding: 5px;
+}
+
+
+.star-col > .size > p {
+	text-align: center;
+}
+
+.free {
+	background-color: #000;
+	color: #fff;
+	float: right;
+}
+
+.button {
+	width: 200px;
+	height: 40px;
+	background-color: #000;
+	border-radius: none;
+	border: none;
+}
+
+.content {
+	text-align: center;
+}
+
+.option {
+	color: #a6a6a6;
+}
+
+strong {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.order {
+	padding-left: 585px;
+}
+
+hr {
+	width: 20px;
+	height: 1px;
+	background-color: yellow;
+}
